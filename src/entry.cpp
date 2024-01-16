@@ -34,6 +34,30 @@ enum Wall {
     LEFT
 };
 
+// COMPONENT DEFINITIONS
+struct Position : Component {
+    Vec2 value;
+};
+
+struct Velocity : Component {
+    Vec2 value;
+};
+
+struct Rotation : Component {
+    float value;
+};
+
+struct Texture : Component {
+    SDL_Texture* texture = nullptr;
+};
+// END COMPONENT DEFINITIONS
+
+// SYSTEM DEFINITIONS
+struct Move : System {
+
+};
+// END SYSTEM DEFINITIONS
+
 struct Asteroid {
     SDL_Texture* texture = nullptr;
 
