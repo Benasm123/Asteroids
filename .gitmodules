@@ -1,0 +1,8 @@
+[submodule "ext/sdl"]
+	path = ext/sdl
+	url = https://github.com/libsdl-org/SDL.git
+	branch = SDL2
+[submodule "ext/sdl_image"]
+	path = ext/sdl_image
+	url = https://github.com/libsdl-org/SDL_image.git
+	branch = SDL2
